@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 13: For Loops</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #13: For Loops</strong><br>
+        <ol>
+            <li>Give our customer their total price.</li><br>
+            <li>Add the price of the items together with a sales tax of 8%.</li><br>
+            <li>Log the price. </li>
+        </ol><br>
+        Open up the console to see!  
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        // Given Object
+        const cartItems = [
+            { quantity: 1, price: 5}, 
+            { quantity: 3, price:4},
+            { quantity: 10, price: 1}
+        ];
+
+        // Set variable total to 0.
+        let total = 0; 
+
+        // Use for loop to multiply price with its respective quantity then add new price to current price. Save the updated value of price to the variable total. 
+        for (let i = 0; i < cartItems.length; i++) {
+            total += cartItems[i].price * cartItems[i].quantity; 
+        }
+
+        // Set variable tax to calculate 8% tax.
+        let tax = total * 0.08;
+
+        // Set variable totalPrice to calculate the total after tax. 
+        let totalPrice = tax + total;  
+
+        console.log(totalPrice);
+
+    </script>
+ </body>
+</html>

@@ -67,6 +67,9 @@ Look some examples and comment out if the console will show "true" or "false" an
 6. If we don't know user's status they are a guest.
 
 ## Challenge 13: For Loops
+1. Give our customer their total price. 
+2. Add the price of the items together with a sales tax of 8%.
+3. Log the price. 
 
 ## Challenge 14: While/Do While
 
