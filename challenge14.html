@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 14: While/Do While</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #14: While/Do While</strong><br>
+        <ol>
+            <li>Track our user's activity.</li><br>
+            <li>While the total updates is under 10 updates keep logging the update count.</li><br>
+            <li>After we reach our threshold say, 'No longer tracking the user'.</li><br>
+            <li>After we reach our threshold say, 'No longer tracking the user'.</li><br>
+            <li>Change the logic to a do while with it updating just a single time.</li>
+        </ol><br>
+        Open up the console to see!  
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        // Given variable
+       let totalUpdates = 0; 
+
+       // While loop to keep adding to totalUpdates as long as the variable is less than 10 and show in console each time. 
+        while (totalUpdates < 10) {
+            totalUpdates++;
+            console.log(totalUpdates);
+        }
+
+        console.log(`No longer tracking the user`);
+
+        // Do/While loop to keep adding the totalUpdates as long as the variable is less than 10 but show it in console once. 
+        do {
+            totalUpdates++; 
+            console.log(totalUpdates); 
+        }
+        while (totalUpdates < 10); 
+        console.log(`No longer tracking the user`);
+    </script>
+ </body>
+</html>
