@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 12: Switch Statements</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #12: Switch Statements</strong><br>
+        <ol>
+            <li>Our business wants to convince users to upgrade their accounts.</li><br>
+            <li>ICheck a user's account type (switch) of 'shopper', 'super shopper', & 'guest'.</li><br>
+            <li>If a user is a 'guest' ask them if they want to upgrade to a 'shopper'.</li><br>
+            <li>If a user is a 'shopper' ask if they want to upgrade to a 'super shopper'</li><br>
+            <li>If a user is a 'super shopper' tell them they are the best!</li><br>
+            <li>If we don't know user's status they are a guest.</li>
+        </ol><br>
+        Open up the console to see!  
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        const userType = 'shopper'; 
+
+        switch (userType) {
+            case 'guest':
+                console.log(`Would you like to upgrade to a shopper?`);
+                break
+            case 'shopper' :
+                console.log(`Would you like to upgrade to a super shopper?`);
+                break
+            case 'super shopper' :
+                console.log(`You are the best!`);
+                break
+            default :
+                console.log(`guest`);
+        }
+    </script>
+ </body>
+</html>
