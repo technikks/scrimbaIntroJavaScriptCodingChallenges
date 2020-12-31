@@ -38,3 +38,7 @@ After creating the initial array do not just create a brand new array. Modify it
 2. Tell the user what the total price is before discount.
 3. Inform the user what the average price of items is before discount.
 4. Inform them the final price after saving 5 dollars with promo code 'I Got 5 On It'.
+
+## Challenge 9: Relational Operators
+1. Our business wants to make sure we give our users the best promo codes available for two categories.
+2. Create two promo codes in variables and compare to find out if the first one is a better value for the dollars off category. 
