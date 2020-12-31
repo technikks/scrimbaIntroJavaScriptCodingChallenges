@@ -12,3 +12,5 @@ Create 2 variables related to your dog. Make one of them its age and update it b
 Building from Challenge 1, update variable to use const.
 * Changed variable "breed" to use const since it's not a variable being reassigned. 
 
+## Challenge 3: Strings in JavaScript
+Given two variables with strings assigned to them, console both with space in between the strings. 
