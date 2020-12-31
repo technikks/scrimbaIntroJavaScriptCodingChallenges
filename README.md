@@ -14,3 +14,6 @@ Building from Challenge 1, update variable to use const.
 
 ## Challenge 3: Strings in JavaScript
 Given two variables with strings assigned to them, console both with space in between the strings. 
+
+## Challenge 4: Numbers in JavaScript
+Given some variables, determine what the console will display. Refer to comments in html file. 

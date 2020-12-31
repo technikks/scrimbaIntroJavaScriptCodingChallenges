@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 4: Numbers in Javascript</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #4: Numbers in Javascript</strong><br>
+        Given some variables, determine what the console will display. Refer to comments in html file. 
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        // Given variables
+        let example1 = parseInt("Hello 33 World 22"); 
+        let example2 = parseInt('44 Dylan 33'); 
+        let example3 = 55.3333.toFixed(0); 
+        let example4 = 200.0.toFixed(2); 
+
+        // Console will display "null" because the string doesn't start with a number
+        console.log(example1);
+        
+        // Console will display "44", the first number, since the string starts with a number.
+        console.log(example2);
+        
+        // Console will return the number with 0 decimal place and display "55".
+        console.log(example3);
+        
+        // Console wil return the number with 2 decimal places and display "200.00".
+        console.log(example4);
+ 
+    </script>
+</body>
+</html>
