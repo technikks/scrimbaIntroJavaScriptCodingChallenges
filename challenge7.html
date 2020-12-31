@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 7: Objectss</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #7: Objects</strong><br>
+        <ol>
+            <li>Your organization needs the user's personal information to ship the inventory to. Create an object to store the data in.</li><br>
+            <li>Store a user's first and last name.</li><br>
+            <li>Store a user's address. City and state will be enough. Have this as a nested object. (Interface Segregation Principle)</li><br>
+            <li>The business wants to give more personalized ads and wants to collect information about the user's hobbies. Create a list of hobbies.</li><br>
+            <li>Are they a gold member? Store a boolean with this value.</li>
+        </ol><br>
+        Open up the console to see!  
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        // Object to store data
+        let userInfo = { 
+        firstName: "Jane",
+        lastName: "Doe",
+        address: 
+            {
+                city: "Washington",
+                state: "DC",
+            },
+        hobbies: ["hobbie 1", "hobbie 2", "hobbie 3"],
+        isGold: true
+        };
+
+        console.log(userInfo); 
+    </script>
+</body>
+</html>
