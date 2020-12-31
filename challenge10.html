@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 10: Increment</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #10: Increment</strong><br>
+        <ol>
+            <li>Our business wants to upsell items in a user's cart.</li><br>
+            <li>Ask the user if they would like to add one more item (with the variable provided). Update the quantity variable if they do.</li><br>
+            <li>Log the current quantity.</li>
+        </ol><br>
+        Open up the console to see!  
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        // Given variable for randomize customer answer. 
+        const customerAnswer = Math.random() >= 0.5; 
+
+        // Setting variable for quantity
+        let quantity = 0; 
+
+        // If statment to add 1 to the quantity if customer answers "true". 
+        if (customerAnswer) {
+            quantity++
+        }
+
+        console.log(customerAnswer, quantity); 
+    </script>
+ </body>
+</html>

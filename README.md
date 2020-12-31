@@ -42,3 +42,18 @@ After creating the initial array do not just create a brand new array. Modify it
 ## Challenge 9: Relational Operators
 1. Our business wants to make sure we give our users the best promo codes available for two categories.
 2. Create two promo codes in variables and compare to find out if the first one is a better value for the dollars off category. 
+
+## Challenge 10: Increment
+1. Our business wants to upsell items in a user's cart. 
+2. Ask the user if they would like to add one more item (with the variable provided). Update the quantity variable if they do.
+3. Log the current quantity.
+
+## Challenge 11: If/Else/ElseIf
+
+## Challenge 12: Switch Statements
+
+## Challenge 13: For Loops
+
+## Challenge 14: While/Do While
+
+## Challenge 15: Functions
