@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 6: Arrays in Javascript</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #6: Arrays in Javascript</strong><br>
+        <ol>
+            <li>Your company is launching 3 new products: toilet paper, bottled water, and sanitizer. Store them in a list.</li><br>
+            <li>Turns out there was a mistake and toilet paper was actually paper towels. Make the appropriate update.</li><br>
+            <li>Sanitizer sells out. Remove it from the list.</li><br>
+            <li>Business is so good the company launches a new product: Bleach. Add it to the list.</li>
+        </ol><br>
+        After creating the initial array do not just create a brand new array. Modify it accordingly. 
+        <br>
+        Open up the console to see!  
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        // List of products company is launching. 
+        let products = [`toilet paper`, `bottle water`, `sanitizer`]
+        console.log(products);
+
+        // Updating toilet paper to paper towels. 
+        products[0] = 'paper towels'
+        console.log(products);
+
+        // Removing sanitizer from the list. 
+        products.pop()
+        console.log(products); 
+
+        // Adding bleach to the end of the array. 
+        products.push(`bleach`)
+        console.log(products); 
+    </script>
+</body>
+</html>
