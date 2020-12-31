@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 11: If/Else/ElseIf</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #11: If/Else/ElseIf</strong><br>
+        PART 1: <br>
+        <ol>
+            <li>Our business wants to keep track of what age range a user falls into.</li><br>
+            <li>If they are 12 or younger log 'child'.</li><br>
+            <li>If not a child but the user's age is under 20 log 'teenager'.</li><br>
+            <li>If neither log 'adult'.</li>
+        </ol><br>
+        PART 2:<br>
+        Look some examples and comment out if the console will show "true" or "false" and why.  
+        <br><br>
+        Open up the console to see!  
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        // Part One
+        // Setting 18 to variable age.
+       let age = 18;
+
+       // If/Else/ElseIf statements to determine whether age is "child", "teenager", or "adult"
+        if (age <= 12) {
+            console.log(age, `child`);
+        } else if (12 < age <= 20) {
+            console.log(age, `teenage`); 
+        } else {
+            console.log(age, `adult`);
+        }
+
+        // Part Two
+        // (10 === 10) is true
+        // (5 < 4) is false
+        // (true) AND (false) will result in false because both needed to be true. 
+        console.log(10 === 10 && 5 < 4);
+
+        // (10 === 10) is true
+        // (5 < 4) is false
+        // (true) OR (false) will result in true because only one needed to be true. 
+        console.log(10 === 10 || 5 < 4);
+
+        // (5 >= 5) is true
+        // (4 > 4) is false
+        // (3 + 2 === 5) is true
+        // (true OR false) AND true will result in true because in the parenthesis, only one true is needed AND combine with another true, console will display true. 
+        console.log((5 >= 5 || 4 > 4) && 3 + 2 === 5);
+
+    </script>
+ </body>
+</html>

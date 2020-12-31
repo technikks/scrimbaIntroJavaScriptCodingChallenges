@@ -49,6 +49,14 @@ After creating the initial array do not just create a brand new array. Modify it
 3. Log the current quantity.
 
 ## Challenge 11: If/Else/ElseIf
+### Part One
+1. Our business wants to keep track of what age range a user falls into.
+2. If they are 12 or younger log 'child'.
+3. If not a child but the user's age is under 20 log 'teenager'.
+4. If neither log 'adult'.
+
+### Part Two
+Look some examples and comment out if the console will show "true" or "false" and why.
 
 ## Challenge 12: Switch Statements
 
