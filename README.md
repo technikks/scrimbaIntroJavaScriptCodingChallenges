@@ -17,3 +17,6 @@ Given two variables with strings assigned to them, console both with space in be
 
 ## Challenge 4: Numbers in JavaScript
 Given some variables, determine what the console will display. Refer to comments in html file. 
+
+## Challenge 5: Booleans in JavaScript
+Given some variables, determine the type of Boolean the console will display for each variable. Refer to comments in html file. 

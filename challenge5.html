@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 5: Booleans in Javascript</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #5: Booleans in Javascript</strong><br>
+        Given some variables, determine the type of Boolean the console will display for each variable. Refer to comments in html file. 
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        // Given variables
+        let example1 = false; 
+        let example2 = true; 
+        let example3 = null; 
+        let example4 = undefined; 
+        let example5 = ''; 
+        let example6 = NaN; 
+        let example7 = -5; 
+        let example8 = 0; 
+
+        // The value assigned to the variable is false, the console will display "false".
+        console.log(Boolean(example1));
+
+        // The value assigned to the variable is true, the console will display "true".
+        console.log(Boolean(example2));
+
+        // The variable assigned to the variable is a placeholder, the console will display "false".
+        console.log(Boolean(example3));
+
+        // The value assigned to the variable is undefined, the console will display "false".
+        console.log(Boolean(example4));
+
+        // The value assigned to the variable is an empty string, the console will display "false". However, if a space is added in the string, the console will display "true". 
+        console.log(Boolean(example5));
+
+        // The value assigned to the variable is "Not a Number", the console will display "false". 
+        console.log(Boolean(example6));
+
+        // The value assigned to the variable is a negative number, the console will display "true". Positive numbers are also "true". 
+        console.log(Boolean(example7));
+
+        // The value assigned to the variable is "0", neiher positive nor negative, the console will display "false". 
+        console.log(Boolean(example8));
+ 
+    </script>
+</body>
+</html>
