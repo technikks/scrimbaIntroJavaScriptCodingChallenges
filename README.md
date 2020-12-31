@@ -32,3 +32,9 @@ After creating the initial array do not just create a brand new array. Modify it
 3. Store a user's address. City and state will be enough. Have this as a nested object. (Interface Segregation Principle)
 4. The business wants to give more personalized ads and wants to collect information about the user's hobbies. Create a list of hobbies.
 5. Are they a gold member? Store a boolean with this value.
+
+## Challenge 8: Arithmetic Operators
+1. Create 3 variables to store an item price. The last price 2 items were ordered (multiplication).
+2. Tell the user what the total price is before discount.
+3. Inform the user what the average price of items is before discount.
+4. Inform them the final price after saving 5 dollars with promo code 'I Got 5 On It'.

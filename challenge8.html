@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 8: Arithmetic Operators</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #8: Arithmetic Operators</strong><br>
+        <ol>
+            <li>Create 3 variables to store an item price. The last price 2 items were ordered (multiplication).</li><br>
+            <li>Tell the user what the total price is before discount.</li><br>
+            <li>Inform the user what the average price of items is before discount.</li><br>
+            <li>TInform them the final price after saving 5 dollars with promo code 'I Got 5 On It'.</li>
+        </ol><br>
+        Open up the console to see!  
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        // Setting variables to store price for 3 items.
+        let price1 = 2;
+        let price2 = price1 * 2;
+        let price3 = price1 * 3;
+
+        // Set a variable that will calculate the total price of all 3 items.
+        let total = price1 + price2 + (price3 * 2); 
+        console.log(`Your total is $${total}`);
+
+        // Set a variable that will calculte the average of the 3 items. 
+        let average = (price1 + price2 + price3) / 4; 
+        console.log(`Your average price is $${average}`); 
+
+        // Set a variable that will calculate the final price with $5 discount.
+        let final = total - 5;
+        console.log(`Your total is $${final} with the $5 discount`);
+
+    </script>
+ </body>
+</html>
