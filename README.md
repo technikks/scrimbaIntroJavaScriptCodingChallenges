@@ -4,21 +4,27 @@
 These are the instructions to the coding challenges. Open the respective challenge html file to see the solution. 
 
 ### Challenge 1: Variable 
+(challenge1.html)
 Create 2 variables related to your dog. Make one of them its age and update it by one. Log out all the values in a friendly way of your choosing. 
 
 ### Challenge 2: Const
+(challenge2.html)
 Building from Challenge 1, update variable to use const.
 
 ### Challenge 3: Strings in JavaScript
+(challenge3.html)
 Given two variables with strings assigned to them, console both with space in between the strings. 
 
 ### Challenge 4: Numbers in JavaScript
+(challenge4.html)
 Given some variables, determine what the console will display. Refer to comments in html file. 
 
 ### Challenge 5: Booleans in JavaScript
+(challenge5.html)
 Given some variables, determine the type of Boolean the console will display for each variable. Refer to comments in html file. 
 
 ### Challenge 6: Arrays
+(challenge6.html)
 1. Your company is launching 3 new products: toilet paper, bottled water, and sanitizer. Store them in a list.
 2. Turns out there was a mistake and toilet paper was actually paper towels. Make the appropriate update.
 3. Sanitizer sells out. Remove it from the list.
@@ -27,6 +33,7 @@ Given some variables, determine the type of Boolean the console will display for
 After creating the initial array do not just create a brand new array. Modify it accordingly.
 
 ### Challenge 7: Objects
+(challenge7.html)
 1. Your organization needs the user's personal information to ship the inventory to. Create an object to store the data in.
 2. Store a user's first and last name.
 3. Store a user's address. City and state will be enough. Have this as a nested object. (Interface Segregation Principle)
@@ -34,21 +41,25 @@ After creating the initial array do not just create a brand new array. Modify it
 5. Are they a gold member? Store a boolean with this value.
 
 ### Challenge 8: Arithmetic Operators
+(challenge8.html)
 1. Create 3 variables to store an item price. The last price 2 items were ordered (multiplication).
 2. Tell the user what the total price is before discount.
 3. Inform the user what the average price of items is before discount.
 4. Inform them the final price after saving 5 dollars with promo code 'I Got 5 On It'.
 
 ### Challenge 9: Relational Operators
+(challenge9.html)
 1. Our business wants to make sure we give our users the best promo codes available for two categories.
 2. Create two promo codes in variables and compare to find out if the first one is a better value for the dollars off category. 
 
 ### Challenge 10: Increment
+(challenge10.html)
 1. Our business wants to upsell items in a user's cart. 
 2. Ask the user if they would like to add one more item (with the variable provided). Update the quantity variable if they do.
 3. Log the current quantity.
 
-## Challenge 11: If/Else/ElseIf
+### Challenge 11: If/Else/ElseIf
+(challenge11.html)
 #### Part One
 1. Our business wants to keep track of what age range a user falls into.
 2. If they are 12 or younger log 'child'.
@@ -59,6 +70,7 @@ After creating the initial array do not just create a brand new array. Modify it
 Look some examples and comment out if the console will show "true" or "false" and why.
 
 ### Challenge 12: Switch Statements
+(challenge12.html)
 1. Our business wants to convince users to upgrade their accounts.
 2. Check a user's account type (switch) of 'shopper', 'super shopper', & 'guest'.
 3. If a user is a 'guest' ask them if they want to upgrade to a 'shopper'.
@@ -67,17 +79,20 @@ Look some examples and comment out if the console will show "true" or "false" an
 6. If we don't know user's status they are a guest.
 
 ### Challenge 13: For Loops
+(challenge13.html)
 1. Give our customer their total price. 
 2. Add the price of the items together with a sales tax of 8%.
 3. Log the price. 
 
 ### Challenge 14: While/Do While
+(challenge14.html)
 1. Track our user's activity.
 2. While the total updates is under 10 updates keep logging the update count.
 3. After we reach our threshold say, 'No longer tracking the user'.
 4. Change the logic to a do while with it updating just a single time. 
 
 ### Challenge 15: Functions
+(challenge15.html)
 1. Go through the full checkout process.
 2. Use getUserCredentials provided that returns the first name, last name and concats with email.  
 3. Write a function called getPreTaxTotal that take in our cartItems and returns the total without tax.
