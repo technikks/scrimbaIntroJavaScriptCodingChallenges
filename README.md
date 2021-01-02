@@ -1,7 +1,7 @@
 # scrimbaIntroJavaScriptCodingChallenges
 ## Introduction to JavaScript course on Scrimba taught by Dylan C. Israel.
 
-These are the instructions to the coding challenges. Open the respective challenge html file to see the solution. 
+The entire course can be access [here](https://scrimba.com/learn/introtojavascript). Below are the instructions and links to the solutions for the coding challenges in the course. Comments within the html files will explain the solution. 
 
 ### Challenge 1: Variable 
 [Challenge 1 Solution](https://github.com/technikks/scrimbaIntroJavaScriptCodingChallenges/blob/main/challenge1.html)
