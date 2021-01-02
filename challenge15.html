@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 15: Functions</title>
+</head>
+<body>
+    <h1>Scrimba: Introduction to Javascript Course</h1>
+    <h2>Taught by Dylan C. Israel</h2>
+    <p>
+        <strong>Challenge #15: Functions</strong><br>
+        <ol>
+            <li>Go through the full checkout process.</li><br>
+            <li>Use getUserCredentials provided that returns the first name, last name and concats with email.</li><br>
+            <li>Write a function called getPreTaxTotal that take in our cartItems and returns the total without tax.</li><br>
+            <li>Pass the preTaxTotal value to a getTaxedTotal function that returns the value with tax.</li><br>
+            <li>Log each value from the 3 functions out.</li>
+        </ol><br>
+        Open up the console to see!  
+    </p>
+
+    <!--JavaScript begins!-->
+    <script>
+        // Function to collect and return user credentials. 
+        function getUserCredentials(firstName, lastName, email) {
+            return `${firstName} ${lastName}'s email is ${email}`
+        }
+
+        let userCredentials = getUserCredentials("Jane", "Doe", "Jane.Doe@email.com"); 
+
+        console.log(userCredentials)
+
+        // Given object
+        const cartItems = [
+           { quantity: 1, price: 5 }, 
+           { quantity: 3, price: 4 }, 
+           { quantity: 10, price: 1}
+        ];
+
+        // Function to calculate the total 
+        function getPreTaxTotal(cartItems) {
+            let total = 0; 
+            for (let i = 0; i < cartItems.length; i++) {
+            total += cartItems[i].price * cartItems[i].quantity; 
+            }
+            return total
+        }; 
+        console.log(getPreTaxTotal(cartItems)); 
+
+        let preTaxTotal = getPreTaxTotal(cartItems);
+
+        // Function to calculate total with 8% tax. 
+        function getTaxedTotal(preTaxTotal) {
+            return preTaxTotal += 1.08; 
+        };
+
+        let finalTotal = getTaxedTotal(preTaxTotal); 
+        console.log(finalTotal); 
+    </script>
+ </body>
+</html>
